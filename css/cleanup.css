@@ -1,1 +1,17 @@
 /* write your override styles here */
+/*override the body background image*/
+body{
+    background-image: none !important;
+}
+#wall .tag-1, div.parent{
+    display: none; /* overrride the display of tag-1,  tag-4, tag-5, tag-6, tag-7 */
+}
+#wall #tag-2, #tag-3.slick.wicked{
+    display: none !important; /* override the display of tag-2*/
+}
+
+
+/* Code modified from rule !important obtained from https://www.w3schools.com/css/css_important.asp */
+
+    
+
